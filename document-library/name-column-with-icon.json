@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "align-items": "center",
+    "width": "100%",
+    "min-height": "58px",
+    "padding": "8px 12px",
+    "box-sizing": "border-box",
+    "border-left": "1px solid #E2D5BC",
+    "border-bottom": "1px solid #E2D5BC"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "attributes": {
+        "iconName": "Document"
+      },
+      "style": {
+        "font-size": "22px",
+        "color": "#0B2D55",
+        "margin-right": "14px",
+        "flex-shrink": "0"
+      }
+    },
+    {
+      "elmType": "a",
+      "attributes": {
+        "href": "[$FileRef]",
+        "target": "_blank"
+      },
+      "style": {
+        "font-size": "14px",
+        "font-weight": "600",
+        "color": "#0B2D55",
+        "text-decoration": "none",
+        "overflow": "hidden",
+        "text-overflow": "ellipsis",
+        "white-space": "nowrap"
+      },
+      "txtContent": "@currentField"
+    }
+  ]
+}
