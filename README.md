@@ -6,7 +6,10 @@ Reusable JSON formatting samples for SharePoint Online lists and document librar
 
 ```text
 exchange-information/
+  README.md
   exchange-information-view.json
+  assets/
+    exchange-information-preview.png
 
 document-library/
   view-formatting.json
@@ -15,7 +18,15 @@ document-library/
   document-category-column.json
   document-type-column.json
   modified-column.json
+
+DocumentLibraryFormat.png
 ```
+
+## Document library preview
+
+The following example shows the document library after applying the view and column formatting files:
+
+![SharePoint document library formatting preview](./DocumentLibraryFormat.png)
 
 ## Document library fields
 
@@ -52,7 +63,13 @@ For the Name column, use only one variant:
 
 ## Exchange Information
 
-The Exchange Information formatting will be stored in `exchange-information/exchange-information-view.json` after its final JSON is confirmed.
+The Exchange Information sample is available in:
+
+```text
+exchange-information/exchange-information-view.json
+```
+
+See `exchange-information/README.md` for the preview, expected fields, and installation instructions.
 
 ## Design palette
 
