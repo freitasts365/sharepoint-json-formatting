@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "align-items": "center",
+    "width": "100%",
+    "min-height": "58px",
+    "padding": "8px 10px",
+    "box-sizing": "border-box",
+    "border-bottom": "1px solid #E2D5BC"
+  },
+  "children": [
+    {
+      "elmType": "span",
+      "style": {
+        "display": "inline-block",
+        "padding": "5px 12px",
+        "border-radius": "14px",
+        "background-color": "#F5F1E8",
+        "border": "1px solid #E2D5BC",
+        "color": "#0B2D55",
+        "font-size": "12px",
+        "font-weight": "600",
+        "white-space": "nowrap"
+      },
+      "txtContent": "=if(@currentField == '', 'General', @currentField)"
+    }
+  ]
+}
