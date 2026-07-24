@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "style": {
+    "display": "flex",
+    "align-items": "center",
+    "justify-content": "flex-end",
+    "width": "100%",
+    "min-height": "58px",
+    "padding": "8px 12px",
+    "box-sizing": "border-box",
+    "border-right": "1px solid #E2D5BC",
+    "border-bottom": "1px solid #E2D5BC",
+    "font-size": "12px",
+    "color": "#605E5C"
+  },
+  "txtContent": "=toLocaleDateString(@currentField)"
+}
