@@ -4,7 +4,7 @@ SharePoint Online view formatting sample for displaying the current exchange rat
 
 ## Preview
 
-![Exchange Information preview](./assets/exchange-information-preview.png)
+![Exchange Information preview](./assets/ExchangeRate.png)
 
 ## SharePoint fields
 
